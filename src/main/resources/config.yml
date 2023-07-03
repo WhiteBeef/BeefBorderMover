@@ -1,0 +1,320 @@
+messages:
+  not_a_number: "Вы ввели не число!"
+  not_enough_money: "У вас недостаточно средств!"
+  negative_number: "Вы не можете положить отрицательное число!"
+  success: "Успех!"
+
+database:
+  use-mysql: false
+  host: 127.0.0.1
+  port: 8000
+  database: test
+  username: root
+  password: admin
+
+skills:
+  balance:
+    name: "Барьер"
+    description:
+      - "Положить деньги - /border pay!"
+    levelups:
+      1:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%1%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      2:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%2%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      3:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%3%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      4:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%4%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      5:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%5%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      6:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%6%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      7:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%7%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      8:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%8%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      9:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%9%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      10:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      11:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      12:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      13:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      14:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      15:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      16:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      17:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      18:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      19:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      20:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      21:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      22:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      23:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      24:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      25:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      26:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      27:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      28:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      29:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      30:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      31:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      32:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      33:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      34:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      35:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      36:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      37:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      38:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      39:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      40:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      41:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      42:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      43:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      44:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      45:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      46:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      47:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      48:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      49:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"
+      50:
+        value: 1000000
+        messages:
+          - "%beefchat_firstcolor%Игроки сервера собрали на барьер %beefchat_secondcolor%10%beefchat_firstcolor% уровня! Он увеличится на 100 блоков"
+        awardCommands:
+          - "worldborder add 100 0"

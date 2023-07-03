@@ -1,0 +1,6 @@
+name: BeefBorderMover
+version: '${project.version}'
+main: ru.whitebeef.beefbordermover.BeefBorderMover
+api-version: 1.19
+depend: [ BeefLibrary, XConomy, PlaceholderAPI ]
+authors: [ _WhiteBeef_ ]
